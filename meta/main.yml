@@ -1,0 +1,9 @@
+---
+
+galaxy_info:
+  author: HMCTS Reform programme
+  description: Role to install and configure Grafana
+  license: MIT
+  min_ansible_version: 1.2
+dependencies:
+  - { role: devops.postgresql }

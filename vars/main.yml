@@ -1,0 +1,8 @@
+---
+
+postgresql_user:
+  - name: "grafana"
+    password: "{{ lookup('hashi_vault', 'secret=secret/devops/grafana_db_password:value') }}"
+
+postgresql_database:
+  - name: "grafana"

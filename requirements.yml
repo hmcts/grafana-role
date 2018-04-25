@@ -1,0 +1,5 @@
+---
+- name: devops.postgresql
+  src: git@git.reform.hmcts.net:devops/postgresql-role.git
+  scm: git
+  version: master
